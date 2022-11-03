@@ -2,70 +2,70 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Derivatives</title>
-    <link>https://csmeyns.github.io/derivatives/tags/</link>
+    <link>/tags/</link>
     <description>Recent content in Tags on Derivatives</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language><atom:link href="https://csmeyns.github.io/derivatives/tags/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Aggregation</title>
-      <link>https://csmeyns.github.io/derivatives/tags/aggregation/</link>
+      <link>/tags/aggregation/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://csmeyns.github.io/derivatives/tags/aggregation/</guid>
+      <guid>/tags/aggregation/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Alzheimer disease</title>
-      <link>https://csmeyns.github.io/derivatives/tags/alzheimer-disease/</link>
+      <link>/tags/alzheimer-disease/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://csmeyns.github.io/derivatives/tags/alzheimer-disease/</guid>
+      <guid>/tags/alzheimer-disease/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Amyloid</title>
-      <link>https://csmeyns.github.io/derivatives/tags/amyloid/</link>
+      <link>/tags/amyloid/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://csmeyns.github.io/derivatives/tags/amyloid/</guid>
+      <guid>/tags/amyloid/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Bayesian inference</title>
-      <link>https://csmeyns.github.io/derivatives/tags/bayesian-inference/</link>
+      <link>/tags/bayesian-inference/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://csmeyns.github.io/derivatives/tags/bayesian-inference/</guid>
+      <guid>/tags/bayesian-inference/</guid>
       <description></description>
     </item>
     
     <item>
       <title>In silico</title>
-      <link>https://csmeyns.github.io/derivatives/tags/in-silico/</link>
+      <link>/tags/in-silico/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://csmeyns.github.io/derivatives/tags/in-silico/</guid>
+      <guid>/tags/in-silico/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Maximum parsimony</title>
-      <link>https://csmeyns.github.io/derivatives/tags/maximum-parsimony/</link>
+      <link>/tags/maximum-parsimony/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://csmeyns.github.io/derivatives/tags/maximum-parsimony/</guid>
+      <guid>/tags/maximum-parsimony/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Phylogenetics</title>
-      <link>https://csmeyns.github.io/derivatives/tags/phylogenetics/</link>
+      <link>/tags/phylogenetics/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://csmeyns.github.io/derivatives/tags/phylogenetics/</guid>
+      <guid>/tags/phylogenetics/</guid>
       <description></description>
     </item>
     
