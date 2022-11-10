@@ -920,7 +920,7 @@ Metrics details</div>
 <p>Through the identification of campaigns, we detect the influence of each orchestrated campaign on the spam traffic collected, as well as the emergence of new IP addresses that join a given campaign. Based on those observations, Fazzion <em>et al</em>. [15] developed a method that can identify groups of transmitters that are correlated, called <em>SpamBands</em>. Since that work was published in Portuguese, the method is described here for completeness.</p>
 <p>The premise of <em>SpamBands</em> was that machines which generate the same campaigns are controlled by the same orchestrator, being related in terms of dissemination strategy used. Thus, a <em>SpamBand</em> is a group of machines that works together on the same set of campaigns. The relationship between machines and campaigns can be modeled as a graph G, where the machines are vertices and there is an edge between two machines if they sent messages associated with the same campaign. Figure 1 illustrates the construction of this graph.</p>
 <p>
-  <img src="/img/neighborhood-spam_fig1.png" alt="SpamBand graph construction">
+  <img src="/derivatives/img/neighborhood-spam_fig1.png" alt="SpamBand graph construction">
 </p>
 <figcaption>
 <p><strong>Figure 1</strong>
@@ -1047,7 +1047,7 @@ Full size table</div>
 </h3>
 <p>Figure 2(a) shows that for the majority of Autonomous Systems, only a few devices were seen contacting the honeypots. In almost 90% of the ASes, the number of machines observed was smaller than 20. In Table 2, we can clearly see the existence of a large group of AS with a small number of IP addresses sending spam messages and another group, smaller, which contains most of those addresses. This shows that the machines that send spam messages are not evenly distributed across the Autonomous Systems.</p>
 <p>
-  <img src="/img/neighborhood-spam_fig2.png" alt="Distribution of active IP numbers per AS, as well as the distribution of the number of IPs from an AS present in the XBL, PBL black lists (or not present in any BL).">
+  <img src="/derivatives/img/neighborhood-spam_fig2.png" alt="Distribution of active IP numbers per AS, as well as the distribution of the number of IPs from an AS present in the XBL, PBL black lists (or not present in any BL).">
 </p>
 <figcaption>
 <p><strong>Figure 2</strong>
@@ -1568,7 +1568,7 @@ Distribution of active IP numbers per AS, as well as the distribution of the num
 </h4>
 <p>The graph in Figure 3(a) shows that a very small percentage of the neighborhoods of this group use the SOCKS and HTTP protocols to send spam messages and that over 70% of the AS send less than 100 thousand of messages in the period. Although the number of messages is small, given that we collected for almost one year, we can see in Table 5 that this group had a very small number of IP addresses observed, resulting in a relatively high number of messages by IP address.</p>
 <p>
-  <img src="/img/neighborhood-spam_fig3.png" alt="Distribution of messages sent and active IP numbers for ASes in group 1.">
+  <img src="/derivatives/img/neighborhood-spam_fig3.png" alt="Distribution of messages sent and active IP numbers for ASes in group 1.">
 </p>
 <figcaption>
 <p><strong>Figure 3</strong>
@@ -1597,7 +1597,7 @@ Distribution of messages sent and active IP numbers for ASes in group 1. <strong
 The main characteristic of the ASes of this group is the small number of spamming machines, as we can see in Figure 3(b). Almost 60% of the Autonomous Systems here have only a single IP address in the dataset and none of them have more than one hundred IP addresses. This explains why that group, even encompassing 64% of the AS, is responsible for only 9.5% of the spam traffic generated. Furthermore, most of the IP addresses in this group are in XBL blacklist, which characterizes infected machines, probably belonging to botnets.</p>
 <p>The activity period of the machines in the AS of this group show constant activity using the SMTP protocol in almost all ASes, as shown in Figure 4(a). On the other hand, the graph of Figure 4(c) shows that few ASes use the HTTP protocol and only one used this protocol for more than ten days. This large amount of messages sent by SMTP protocol, along with a high number of IP addresses in XBL, suggests the existence of bots. As there are few committed IP addresses in these AS, it is possible that those machines constitute exceptions in the security policy of an overall secure system and that, for some reason, go unnoticed to the management of these networks.</p>
 <p>
-  <img src="/img/neighborhood-spam_fig4.png" alt="Activity of Autonomous Systems in group 1, per protocol.">
+  <img src="/derivatives/img/neighborhood-spam_fig4.png" alt="Activity of Autonomous Systems in group 1, per protocol.">
 </p>
 <figcaption>
 <p><strong>Figure 4</strong>
@@ -1629,7 +1629,7 @@ Activity of Autonomous Systems in group 1, per protocol. <strong>(a)</strong> SM
 </h4>
 <p>This group contains the ASes that sent more spam messages and together they are responsible for more than 65% of all messages. As shown in Figure 5(a), 5% of the ASes sent more than one million messages and are responsible for most of the spam traffic. In this group, almost no message is sent using the SMTP protocol, since 98% of the messages were sent by SOCKS and HTTP protocols.</p>
 <p>
-  <img src="/img/neighborhood-spam_fig5.png" alt="Distribution of messages sent and active IP numbers for ASes in group 2.">
+  <img src="/derivatives/img/neighborhood-spam_fig5.png" alt="Distribution of messages sent and active IP numbers for ASes in group 2.">
 </p>
 <figcaption>
 <p><strong>Figure 5</strong>
@@ -1658,7 +1658,7 @@ Distribution of messages sent and active IP numbers for ASes in group 2. <strong
 The Autonomous Systems in this group also have a small number of spamming IP addresses — 57% of them had only one IP address in the dataset. Moreover, a very small percentage of neighborhoods here (2%) have more than one hundred machines. However, even with a small number of IP addresses, the average number of spam messages sent by each of them is very large, more than 162 thousand, as can be seen in Table 5. Those features (few machines, with heavy spam traffic) suggest that most of the ASes here house machines that act as dedicated servers to send spam, probably with the connivance of the network administrators. In our opinion, an unwanted bot that would start behaving that way would not go unnoticed by a network administrator that did not accept such practice, and it would not remain limited to a few machines if the network administrator was careless enough not to bother about it. One final interesting aspect is that, in this group, most of the IP addresses are not in any blacklist. Considering the volume of traffic they generate, that would only be possible if they consistently abuse intermediary machines to hide from blacklist detection.</p>
 <p>Compared to the other groups, the period of activity of the AS using SOCKS and HTTP protocols are higher in this group. We can see that there is a larger number of ASes and they remain active for a longer period, as the graphics of Figure 6 clearly shows.</p>
 <p>
-  <img src="/img/neighborhood-spam_fig6.png" alt="Activity of Autonomous Systems in group 2, per protocol.">
+  <img src="/derivatives/img/neighborhood-spam_fig6.png" alt="Activity of Autonomous Systems in group 2, per protocol.">
 </p>
 <figcaption>
 <p><strong>Figure 6</strong>
@@ -1691,7 +1691,7 @@ As mentioned earlier, ASes 10297, 29802 and 2497 were assigned to this group. Li
 </h4>
 <p>Table 5 shows that in this group, over 70% of spam messages were sent using the SMTP protocol and the ASes of the group are responsible for only 2.2% of all messages. The graph in Figure 7(a) shows that over 80% of the neighborhoods here sent less than 200,000 messages, explaining the fact that this group is responsible for a smaller number of messages.</p>
 <p>
-  <img src="/img/neighborhood-spam_fig7.png" alt="Distribution of messages sent and active IP numbers for ASes in group 3.">
+  <img src="/derivatives/img/neighborhood-spam_fig7.png" alt="Distribution of messages sent and active IP numbers for ASes in group 3.">
 </p>
 <figcaption>
 <p><strong>Figure 7</strong>
@@ -1720,7 +1720,7 @@ Distribution of messages sent and active IP numbers for ASes in group 3. <strong
 The graph in Figure 7(b) shows a similar behavior to that seen in groups 1 and 2, but the number of ASes with only one IP address is lower, just under 40%. What marks this group is the large number of IP addresses that use the SMTP protocol, over 99% of them, surpassing any other group. In addition, about 64% of the machines in this group are in XBL. This suggests the presence of bots, but the low number of IP addresses suggests that there are fewer compromised machines in those AS.</p>
 <p>The graph in Figure 8(c) shows that only one AS of this group sent spam messages by HTTP protocol, and just for a short period of time. As expected, for the SMTP protocol, all the ASes were very active throughout the period, as seen in Figure 8(a).</p>
 <p>
-  <img src="/img/neighborhood-spam_fig8.png" alt="Activity of Autonomous Systems in group 3, per protocol.">
+  <img src="/derivatives/img/neighborhood-spam_fig8.png" alt="Activity of Autonomous Systems in group 3, per protocol.">
 </p>
 <figcaption>
 <p><strong>Figure 8</strong>
@@ -1752,7 +1752,7 @@ Activity of Autonomous Systems in group 3, per protocol.<strong>(a)</strong> SMT
 </h4>
 <p>From Figure 9(a) we can see that most of the ASes in this group used the SMTP protocol to send spam, but the few Autonomous Systems using SOCKS and HTTP protocols sent more than one million messages. The neighborhoods of this group are responsible for about 23% of all spam traffic.</p>
 <p>
-  <img src="/img/neighborhood-spam_fig9.png" alt="Distribution of messages sent and active IP numbers for ASes in group 4.">
+  <img src="/derivatives/img/neighborhood-spam_fig9.png" alt="Distribution of messages sent and active IP numbers for ASes in group 4.">
 </p>
 <figcaption>
 <p><strong>Figure 9</strong>
@@ -1781,7 +1781,7 @@ Distribution of messages sent and active IP numbers for ASes in group 4. <strong
 This group contains the ASes with the larger numbers of machines observed, as can be seen in Figure 9(b), with over 20% of neighborhoods with over 1,000 IP addresses, in which some of them have more than 100,000 machines. Thus, even accounting for much of the spam traffic, the number of spam messages per IP address is the lowest among the groups, only 3,000. Moreover, the great majority of the IP address are in blacklists and use the SMTP protocol. For all this, we have strong evidence that many of the machines belonging to this group are part of botnets. Because of the large number of machines in this situation, these AS are classified of bad neighborhoods, where, apparently, management policies and network maintenance are not able to prevent the proliferation of infected machines.</p>
 <p>Because the ASes in this group have a very large number of IP addresses, it is common for the same AS to show the use of the three different protocols in the dissemination of spam. This behavior is explained by Figures 10(b) and 10(c). It was expected an intense period of activity in the use of the SMTP protocol, once machines belonging to botnets tend to use this protocol. Therefore, the graph of Figure 10(a) reinforces the suspicious about botnets.</p>
 <p>
-  <img src="/img/neighborhood-spam_fig10.png" alt="Activity of Autonomous Systems in group 4, per protocol.">
+  <img src="/derivatives/img/neighborhood-spam_fig10.png" alt="Activity of Autonomous Systems in group 4, per protocol.">
 </p>
 <figcaption>
 <p><strong>Figure 10</strong>
@@ -1814,7 +1814,7 @@ ASes 3462 and 4134, which are part of this group, have been classified as ISPs w
 </h2>
 <p>We applied the <em>SpamBand</em> identification algorithm described in Section 3 to the data from each honeypot. We found a total of 2618 <em>SpamBands</em> and the distribution of those among the honeypots is shown in Figure 11(a). This Figure reinforces the notion of orchestration by spammers: all honeypots have a well-defined range of <em>SpamBands</em> that attacked them each day, and the increase and decrease in the number of <em>SpamBands</em> in that interval suggests an orchestration in order to obfuscate the action of groups of spammers.</p>
 <p>
-  <img src="/img/neighborhood-spam_fig11.png" alt="SpamBands active in various honeypots over time.">
+  <img src="/derivatives/img/neighborhood-spam_fig11.png" alt="SpamBands active in various honeypots over time.">
 </p>
 <figcaption>
 <p><strong>Figure 11</strong>
@@ -1843,7 +1843,7 @@ SpamBands active in various honeypots over time. <strong>(a)</strong> The number
 Figure 11(b) shows a linear regression of the number of <em>SpamBands</em> per day for each honeypot. The linear trends reveal lines with low inclination (almost constant) adding to the impression that the variation observed in Figure 11(a) is regular and is due to some kind of obfuscation. Another interesting result is about honeypot EC-01. That honeypot was attacked by more <em>SpamBands</em> than any other, although no clear reason for that was found.</p>
 <p>Figure 12(a) shows that only 5% of <em>SpamBands</em> using SOCKS or HTTP have more than 100 IP addresses, again suggesting the use of dedicated infrastructure for sending messages. In contrast, about 30% of total <em>SpamBands</em> using SMTP have more than 100 IP addresses, which is not surprising, since these are supposed to be botnets that, in general, consist of a larger number of machines. Observing Figure 12(b), we see an inversion: HTTP or SOCKS <em>SpamBands</em> tend to send more messages than SMTP ones. This happens precisely due to the fact previously mentioned. Since those who use SOCKS or HTTP are probably dedicated servers, they use all their resources to send a large number of messages. On the other hand, those who use SMTP and are part of botnets can only send spam moderately, to avoid their identification [20].</p>
 <p>
-  <img src="/img/neighborhood-spam_fig12.png" alt="Distribution of IPs present and messages sent by SpamBands.">
+  <img src="/derivatives/img/neighborhood-spam_fig12.png" alt="Distribution of IPs present and messages sent by SpamBands.">
 </p>
 <figcaption>
 <p><strong>Figure 12</strong>
@@ -1875,7 +1875,7 @@ Distribution of IPs present and messages sent by SpamBands. <strong>(a)</strong>
 </h3>
 <p>In Figure 13, we can observe that the majority of <em>SpamBands</em>, for all protocols, have IP addresses from just a few ASes. This result indicates a topological relationship among IP addresses of a <em>SpamBand</em>, where machines from the same AS tend to send unwanted messages from the same set of spam campaigns. Furthermore, the small number of <em>SpamBands</em> that encompass IP addresses from more than 60 neighborhoods use the SMTP protocol. This result is expected, since SMTP is used by botnets, which tend to have infected machines spread over more ASes.</p>
 <p>
-  <img src="/img/neighborhood-spam_fig13.png" alt="Distribution of the number of AS per SpamBand.">
+  <img src="/derivatives/img/neighborhood-spam_fig13.png" alt="Distribution of the number of AS per SpamBand.">
 </p>
 <figcaption>
 <p><strong>Figure 13</strong>
@@ -1907,7 +1907,7 @@ Distribution of the number of AS per SpamBand. Show the distribution of the numb
 </h4>
 <p>As already mentioned, Autonomous Systems were classified in four groups, where groups 2 and 4 were considered bad neighborhoods. The results in the chart of Figure 14 shows that half of the <em>SpamBands</em> (about 50%) have IP addresses from Autonomous Systems that belong only to groups 2 or 4. Then come <em>SpamBands</em> that use both hosts in neighborhoods of type 2 and 4, and then those that use only group 1. This confirms that the ASes were classified correctly into those four groups and suggests that most of the IP addresses in <em>SpamBands</em> are in bad neighborhoods. Thus, this result points out that the efforts against the spam abuse have to focus in Autonomous Systems that are considered as bad neighborhoods.</p>
 <p>
-  <img src="/img/neighborhood-spam_fig14.png" alt="SpamBands distribution over neighborhood types (AS groups).">
+  <img src="/derivatives/img/neighborhood-spam_fig14.png" alt="SpamBands distribution over neighborhood types (AS groups).">
 </p>
 <figcaption>
 <p><strong>Figure 14</strong>
@@ -1941,7 +1941,7 @@ SpamBands distribution over neighborhood types (AS groups). Shows how SpamBands 
 <p>In this section we analyze the clustering coefficient inside the <em>SpamBands</em> to verify if IP addresses SpamBands interact more with other IP addresses in their AS than with IP addresses from others neighborhoods. The internal clustering coefficient (ICC) of a SpamBand is the average of the clustering coefficient in each AS considering only the internal connections, <em>i.e.</em>, connections among IP addresses that belong to a same Autonomous System. On the other hand, the external clustering coefficient (ECC) of a SpamBand takes the average of the clustering coefficient in each AS considering only the external connections, <em>i.e.</em>, connections among IP addresses of different Autonomous Systems.</p>
 <p>As shown in Figure 15, 55% of the <em>SpamBands</em> have ICC higher than 0.3 while and only 42% have ECC higher than this value. Moreover, as we can see, the standard behavior is that each <em>SpamBand</em> have an ECC smaller than its ICC. We conclude that inside a <em>SpamBand</em>, the relationships between IP addresses which belong to a same AS are more intense. It suggests that there is a topological correlation among IP addresses inside a <em>SpamBand</em>, showing that Autonomous Systems are a good way to represent neighborhoods.</p>
 <p>
-  <img src="/img/neighborhood-spam_fig15.png" alt="SpamBands clustering within ASes.">
+  <img src="/derivatives/img/neighborhood-spam_fig15.png" alt="SpamBands clustering within ASes.">
 </p>
 <figcaption>
 <p><strong>Figure 15</strong>
