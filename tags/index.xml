@@ -2,70 +2,70 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Derivatives</title>
-    <link>http://derivatives.work/tags/</link>
+    <link>https://derivatives.work/tags/</link>
     <description>Recent content in Tags on Derivatives</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language><atom:link href="http://derivatives.work/tags/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language><atom:link href="https://derivatives.work/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Aggregation</title>
-      <link>http://derivatives.work/tags/aggregation/</link>
+      <link>https://derivatives.work/tags/aggregation/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://derivatives.work/tags/aggregation/</guid>
+      <guid>https://derivatives.work/tags/aggregation/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Alzheimer disease</title>
-      <link>http://derivatives.work/tags/alzheimer-disease/</link>
+      <link>https://derivatives.work/tags/alzheimer-disease/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://derivatives.work/tags/alzheimer-disease/</guid>
+      <guid>https://derivatives.work/tags/alzheimer-disease/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Amyloid</title>
-      <link>http://derivatives.work/tags/amyloid/</link>
+      <link>https://derivatives.work/tags/amyloid/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://derivatives.work/tags/amyloid/</guid>
+      <guid>https://derivatives.work/tags/amyloid/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Bayesian inference</title>
-      <link>http://derivatives.work/tags/bayesian-inference/</link>
+      <link>https://derivatives.work/tags/bayesian-inference/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://derivatives.work/tags/bayesian-inference/</guid>
+      <guid>https://derivatives.work/tags/bayesian-inference/</guid>
       <description></description>
     </item>
     
     <item>
       <title>In silico</title>
-      <link>http://derivatives.work/tags/in-silico/</link>
+      <link>https://derivatives.work/tags/in-silico/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://derivatives.work/tags/in-silico/</guid>
+      <guid>https://derivatives.work/tags/in-silico/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Maximum parsimony</title>
-      <link>http://derivatives.work/tags/maximum-parsimony/</link>
+      <link>https://derivatives.work/tags/maximum-parsimony/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://derivatives.work/tags/maximum-parsimony/</guid>
+      <guid>https://derivatives.work/tags/maximum-parsimony/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Phylogenetics</title>
-      <link>http://derivatives.work/tags/phylogenetics/</link>
+      <link>https://derivatives.work/tags/phylogenetics/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://derivatives.work/tags/phylogenetics/</guid>
+      <guid>https://derivatives.work/tags/phylogenetics/</guid>
       <description></description>
     </item>
     
